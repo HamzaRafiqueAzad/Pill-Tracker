@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "229B8898-640D-4915-816F-BFFEC18FA422"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5FBFCEC-4419-4240-9DCC-21A8F9C1D9B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pill Tracker/SignupView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "235"
+            endingLineNumber = "235"
+            landmarkName = "signUp()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B5FBFCEC-4419-4240-9DCC-21A8F9C1D9B4 - 9e361078874de684"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Pill_Tracker.SignupView.signUp() -&gt; ()"
+                  moduleName = "Pill Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Development/iOS%20Projects/Pill%20Tracker/Pill%20Tracker/SignupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "224"
+                  endingLineNumber = "224"
+                  offsetFromSymbolStart = "540">
+               </Location>
+               <Location
+                  uuid = "B5FBFCEC-4419-4240-9DCC-21A8F9C1D9B4 - 9e361078874de665"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Pill_Tracker.SignupView.signUp() -&gt; ()"
+                  moduleName = "Pill Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Development/iOS%20Projects/Pill%20Tracker/Pill%20Tracker/SignupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "225"
+                  endingLineNumber = "225"
+                  offsetFromSymbolStart = "540">
+               </Location>
+               <Location
+                  uuid = "B5FBFCEC-4419-4240-9DCC-21A8F9C1D9B4 - 9e361078874de627"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Pill_Tracker.SignupView.signUp() -&gt; ()"
+                  moduleName = "Pill Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Development/iOS%20Projects/Pill%20Tracker/Pill%20Tracker/SignupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "227"
+                  endingLineNumber = "227"
+                  offsetFromSymbolStart = "576">
+               </Location>
+               <Location
+                  uuid = "B5FBFCEC-4419-4240-9DCC-21A8F9C1D9B4 - 9e361078874de52f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Pill_Tracker.SignupView.signUp() -&gt; ()"
+                  moduleName = "Pill Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Development/iOS%20Projects/Pill%20Tracker/Pill%20Tracker/SignupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "235"
+                  endingLineNumber = "235"
+                  offsetFromSymbolStart = "576">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "203EEADA-0085-4678-BCEC-8AA0197CD340"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pill Tracker/Doctor/DoctorNursePatientsListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "unassignPatient(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7E74A66D-33E9-49FB-96E0-C357F599B265"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pill Tracker/Doctor/DoctorNursePatientsListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "unassignPatient(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "895829BE-C6A9-40D2-A830-CD0990D8E595"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pill Tracker/Doctor/DoctorNursePatientsListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "unassignPatient(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "164497D9-022F-4E6B-8534-401151B677D6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pill Tracker/Doctor/DoctorNursePatientsListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "unassignPatient(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "164497D9-022F-4E6B-8534-401151B677D6 - b4920f9dd19d4579"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Pill_Tracker.DoctorNursePatientsListView.unassignPatient(Pill_Tracker.Patient) -&gt; ()"
+                  moduleName = "Pill Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Development/iOS%20Projects/Pill%20Tracker/Pill%20Tracker/Doctor/DoctorNursePatientsListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "708">
+               </Location>
+               <Location
+                  uuid = "164497D9-022F-4E6B-8534-401151B677D6 - 74ede10a14a9e57a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; Swift.Bool in closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Pill_Tracker.DoctorNursePatientsListView.unassignPatient(Pill_Tracker.Patient) -&gt; ()"
+                  moduleName = "Pill Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Development/iOS%20Projects/Pill%20Tracker/Pill%20Tracker/Doctor/DoctorNursePatientsListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DDCF1CEF-1F5E-4FE2-ACBA-DA49580B2488"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pill Tracker/Doctor/DoctorNursePatientsListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "unassignPatient(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DDCF1CEF-1F5E-4FE2-ACBA-DA49580B2488 - 8f6558c036f0ea0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pill_Tracker.DoctorNursePatientsListView.unassignPatient(Pill_Tracker.Patient) -&gt; ()"
+                  moduleName = "Pill Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Development/iOS%20Projects/Pill%20Tracker/Pill%20Tracker/Doctor/DoctorNursePatientsListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  uuid = "DDCF1CEF-1F5E-4FE2-ACBA-DA49580B2488 - 3e4a9e4e967d4c05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Pill_Tracker.DoctorNursePatientsListView.unassignPatient(Pill_Tracker.Patient) -&gt; ()"
+                  moduleName = "Pill Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Development/iOS%20Projects/Pill%20Tracker/Pill%20Tracker/Doctor/DoctorNursePatientsListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "DDCF1CEF-1F5E-4FE2-ACBA-DA49580B2488 - 8f6558c036f0ea0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pill_Tracker.DoctorNursePatientsListView.unassignPatient(Pill_Tracker.Patient) -&gt; ()"
+                  moduleName = "Pill Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Development/iOS%20Projects/Pill%20Tracker/Pill%20Tracker/Doctor/DoctorNursePatientsListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "392">
+               </Location>
+               <Location
+                  uuid = "DDCF1CEF-1F5E-4FE2-ACBA-DA49580B2488 - 3e4a9e4e967d4c05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Pill_Tracker.DoctorNursePatientsListView.unassignPatient(Pill_Tracker.Patient) -&gt; ()"
+                  moduleName = "Pill Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Development/iOS%20Projects/Pill%20Tracker/Pill%20Tracker/Doctor/DoctorNursePatientsListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

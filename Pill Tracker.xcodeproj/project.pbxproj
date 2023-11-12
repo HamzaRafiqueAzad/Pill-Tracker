@@ -7,18 +7,127 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D831DBBBC0E0FB2B17B1D11 /* Pods_Pill_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57525F0EB721F5EF3A0FC2F7 /* Pods_Pill_Tracker.framework */; };
+		BB02616B2A7FB75000CE52E0 /* NurseAssignedPatientsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02616A2A7FB75000CE52E0 /* NurseAssignedPatientsListView.swift */; };
+		BB02616E2A80B92B00CE52E0 /* PatientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02616D2A80B92B00CE52E0 /* PatientView.swift */; };
+		BB0261702A80B99900CE52E0 /* PatientMedicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02616F2A80B99900CE52E0 /* PatientMedicationsView.swift */; };
+		BB0261722A80C22000CE52E0 /* PatientVitalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0261712A80C22000CE52E0 /* PatientVitalsView.swift */; };
+		BB03D3092A8B9E3E0066A51A /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = BB03D3082A8B9E3E0066A51A /* SwiftUICharts */; };
+		BB03D30B2A8CD8010066A51A /* DoctorAssignSpecialistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB03D30A2A8CD8010066A51A /* DoctorAssignSpecialistView.swift */; };
+		BB10FE802A7CCA8A004A9C68 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10FE7F2A7CCA8A004A9C68 /* SignupView.swift */; };
+		BB10FE822A7CE076004A9C68 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10FE812A7CE076004A9C68 /* LoginView.swift */; };
+		BB10FE842A7D02FA004A9C68 /* DoctorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10FE832A7D02FA004A9C68 /* DoctorView.swift */; };
+		BB10FE862A7D0335004A9C68 /* DoctorNursesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10FE852A7D0335004A9C68 /* DoctorNursesListView.swift */; };
+		BB10FE882A7D0351004A9C68 /* DoctorPatientsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10FE872A7D0351004A9C68 /* DoctorPatientsListView.swift */; };
+		BB10FE8A2A7D03D9004A9C68 /* DoctorNurseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10FE892A7D03D9004A9C68 /* DoctorNurseCard.swift */; };
+		BB10FE8D2A7D0483004A9C68 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10FE8C2A7D0483004A9C68 /* Doctor.swift */; };
+		BB10FE8F2A7D04A3004A9C68 /* Nurse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10FE8E2A7D04A3004A9C68 /* Nurse.swift */; };
+		BB10FE912A7D04C1004A9C68 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10FE902A7D04C1004A9C68 /* Patient.swift */; };
+		BB10FE932A7D0598004A9C68 /* UserRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10FE922A7D0598004A9C68 /* UserRole.swift */; };
+		BB10FE952A7D0993004A9C68 /* DoctorNursePatientsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10FE942A7D0993004A9C68 /* DoctorNursePatientsListView.swift */; };
+		BB10FE972A7D0AC1004A9C68 /* DoctorPatientCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10FE962A7D0AC1004A9C68 /* DoctorPatientCard.swift */; };
+		BB10FE992A7D1178004A9C68 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10FE982A7D1178004A9C68 /* Medication.swift */; };
+		BB10FE9B2A7D1187004A9C68 /* Vital.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10FE9A2A7D1187004A9C68 /* Vital.swift */; };
+		BB10FE9D2A7D181F004A9C68 /* DoctorPatientDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10FE9C2A7D181F004A9C68 /* DoctorPatientDetailView.swift */; };
+		BB10FE9F2A7D1851004A9C68 /* DoctorMedicationHistoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10FE9E2A7D1851004A9C68 /* DoctorMedicationHistoryRowView.swift */; };
+		BB10FEA12A7D18AC004A9C68 /* DoctorVitalRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10FEA02A7D18AC004A9C68 /* DoctorVitalRowView.swift */; };
+		BB10FEA52A7D1F72004A9C68 /* NurseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10FEA42A7D1F72004A9C68 /* NurseView.swift */; };
+		BB2D92902A80C407005F1F0C /* PatientReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2D928F2A80C407005F1F0C /* PatientReportView.swift */; };
+		BB2D92922A80C67C005F1F0C /* PatientPDFReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2D92912A80C67C005F1F0C /* PatientPDFReportView.swift */; };
+		BB2D92942A80CF59005F1F0C /* DoctorPatientMedicationHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2D92932A80CF59005F1F0C /* DoctorPatientMedicationHistoryView.swift */; };
+		BB2D92962A80D041005F1F0C /* DoctorManageMedicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2D92952A80D041005F1F0C /* DoctorManageMedicationsView.swift */; };
+		BB2D92982A80D583005F1F0C /* DoctorMedicationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2D92972A80D583005F1F0C /* DoctorMedicationCardView.swift */; };
+		BB2D929A2A80D5B4005F1F0C /* DoctorEditMedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2D92992A80D5B4005F1F0C /* DoctorEditMedicationView.swift */; };
+		BB2D929C2A80D5D5005F1F0C /* DoctorAddMedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2D929B2A80D5D5005F1F0C /* DoctorAddMedicationView.swift */; };
+		BB2D929F2A80F325005F1F0C /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2D929E2A80F325005F1F0C /* FirebaseManager.swift */; };
+		BB3386BF2A9598B400CCD3CF /* NurseGenerateReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3386BE2A9598B400CCD3CF /* NurseGenerateReportView.swift */; };
+		BB7C1D232A94D7C9000D44EB /* DoctorGenerateReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7C1D222A94D7C9000D44EB /* DoctorGenerateReportView.swift */; };
+		BB8C9B222A861ACF00A1EEB6 /* PatientVerifyDosesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8C9B212A861ACF00A1EEB6 /* PatientVerifyDosesView.swift */; };
+		BB8C9B242A86578A00A1EEB6 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8C9B232A86578A00A1EEB6 /* PieChartView.swift */; };
 		BBD908812A7CC1D0009361B5 /* Pill_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD908802A7CC1D0009361B5 /* Pill_TrackerApp.swift */; };
 		BBD908832A7CC1D0009361B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD908822A7CC1D0009361B5 /* ContentView.swift */; };
 		BBD908852A7CC1D2009361B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBD908842A7CC1D2009361B5 /* Assets.xcassets */; };
 		BBD908882A7CC1D2009361B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBD908872A7CC1D2009361B5 /* Preview Assets.xcassets */; };
+		BBD9088F2A7CC26F009361B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBD9088E2A7CC26E009361B5 /* GoogleService-Info.plist */; };
+		BBE579792A8354450055F0F2 /* PatientMedicationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE579782A8354450055F0F2 /* PatientMedicationCard.swift */; };
+		BBE5797D2A8365B40055F0F2 /* NurseVitalRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5797C2A8365B40055F0F2 /* NurseVitalRowView.swift */; };
+		BBE579812A83A89B0055F0F2 /* PatientMedicationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE579802A83A89B0055F0F2 /* PatientMedicationRowView.swift */; };
+		BBE579832A83A8DF0055F0F2 /* PatientMedicationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE579822A83A8DF0055F0F2 /* PatientMedicationDetailView.swift */; };
+		BBE579852A83A9C50055F0F2 /* PatientVitalRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE579842A83A9C50055F0F2 /* PatientVitalRowView.swift */; };
+		BBE579872A83AE260055F0F2 /* NurseMedicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE579862A83AE260055F0F2 /* NurseMedicationsView.swift */; };
+		BBE5798B2A8501770055F0F2 /* PatientGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5798A2A8501770055F0F2 /* PatientGraphView.swift */; };
+		BBE5798D2A8514F10055F0F2 /* PatientMedicalHistoryReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5798C2A8514F10055F0F2 /* PatientMedicalHistoryReportView.swift */; };
+		BBE585372A8D3B2900CBDD43 /* DoctorMedicationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE585362A8D3B2800CBDD43 /* DoctorMedicationDetailView.swift */; };
+		BBE585392A8EA2FA00CBDD43 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE585382A8EA2FA00CBDD43 /* ForgotPasswordView.swift */; };
+		BBFE3E5E2A8258FD006CEDFC /* NursePatientCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E5D2A8258FD006CEDFC /* NursePatientCard.swift */; };
+		BBFE3E602A8259B4006CEDFC /* NurseMedicationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E5F2A8259B4006CEDFC /* NurseMedicationRowView.swift */; };
+		BBFE3E622A8259D6006CEDFC /* NursePatientDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E612A8259D6006CEDFC /* NursePatientDetailView.swift */; };
+		BBFE3E642A82691B006CEDFC /* NurseMedicationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E632A82691B006CEDFC /* NurseMedicationDetailView.swift */; };
+		BBFE3E662A82713A006CEDFC /* NurseVitalsHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E652A82713A006CEDFC /* NurseVitalsHistoryView.swift */; };
+		BBFE3E682A8272C3006CEDFC /* NurseAddVitalReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E672A8272C3006CEDFC /* NurseAddVitalReadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57525F0EB721F5EF3A0FC2F7 /* Pods_Pill_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pill_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7E7F86F20D6731AD7C9621 /* Pods-Pill Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pill Tracker.release.xcconfig"; path = "Target Support Files/Pods-Pill Tracker/Pods-Pill Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		BB02616A2A7FB75000CE52E0 /* NurseAssignedPatientsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseAssignedPatientsListView.swift; sourceTree = "<group>"; };
+		BB02616D2A80B92B00CE52E0 /* PatientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientView.swift; sourceTree = "<group>"; };
+		BB02616F2A80B99900CE52E0 /* PatientMedicationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientMedicationsView.swift; sourceTree = "<group>"; };
+		BB0261712A80C22000CE52E0 /* PatientVitalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientVitalsView.swift; sourceTree = "<group>"; };
+		BB03D30A2A8CD8010066A51A /* DoctorAssignSpecialistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorAssignSpecialistView.swift; sourceTree = "<group>"; };
+		BB10FE7F2A7CCA8A004A9C68 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		BB10FE812A7CE076004A9C68 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BB10FE832A7D02FA004A9C68 /* DoctorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorView.swift; sourceTree = "<group>"; };
+		BB10FE852A7D0335004A9C68 /* DoctorNursesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorNursesListView.swift; sourceTree = "<group>"; };
+		BB10FE872A7D0351004A9C68 /* DoctorPatientsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorPatientsListView.swift; sourceTree = "<group>"; };
+		BB10FE892A7D03D9004A9C68 /* DoctorNurseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorNurseCard.swift; sourceTree = "<group>"; };
+		BB10FE8C2A7D0483004A9C68 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		BB10FE8E2A7D04A3004A9C68 /* Nurse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nurse.swift; sourceTree = "<group>"; };
+		BB10FE902A7D04C1004A9C68 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		BB10FE922A7D0598004A9C68 /* UserRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRole.swift; sourceTree = "<group>"; };
+		BB10FE942A7D0993004A9C68 /* DoctorNursePatientsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorNursePatientsListView.swift; sourceTree = "<group>"; };
+		BB10FE962A7D0AC1004A9C68 /* DoctorPatientCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorPatientCard.swift; sourceTree = "<group>"; };
+		BB10FE982A7D1178004A9C68 /* Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		BB10FE9A2A7D1187004A9C68 /* Vital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vital.swift; sourceTree = "<group>"; };
+		BB10FE9C2A7D181F004A9C68 /* DoctorPatientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorPatientDetailView.swift; sourceTree = "<group>"; };
+		BB10FE9E2A7D1851004A9C68 /* DoctorMedicationHistoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorMedicationHistoryRowView.swift; sourceTree = "<group>"; };
+		BB10FEA02A7D18AC004A9C68 /* DoctorVitalRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorVitalRowView.swift; sourceTree = "<group>"; };
+		BB10FEA42A7D1F72004A9C68 /* NurseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseView.swift; sourceTree = "<group>"; };
+		BB2D928F2A80C407005F1F0C /* PatientReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientReportView.swift; sourceTree = "<group>"; };
+		BB2D92912A80C67C005F1F0C /* PatientPDFReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientPDFReportView.swift; sourceTree = "<group>"; };
+		BB2D92932A80CF59005F1F0C /* DoctorPatientMedicationHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorPatientMedicationHistoryView.swift; sourceTree = "<group>"; };
+		BB2D92952A80D041005F1F0C /* DoctorManageMedicationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorManageMedicationsView.swift; sourceTree = "<group>"; };
+		BB2D92972A80D583005F1F0C /* DoctorMedicationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorMedicationCardView.swift; sourceTree = "<group>"; };
+		BB2D92992A80D5B4005F1F0C /* DoctorEditMedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorEditMedicationView.swift; sourceTree = "<group>"; };
+		BB2D929B2A80D5D5005F1F0C /* DoctorAddMedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorAddMedicationView.swift; sourceTree = "<group>"; };
+		BB2D929E2A80F325005F1F0C /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		BB3386BE2A9598B400CCD3CF /* NurseGenerateReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseGenerateReportView.swift; sourceTree = "<group>"; };
+		BB7C1D222A94D7C9000D44EB /* DoctorGenerateReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorGenerateReportView.swift; sourceTree = "<group>"; };
+		BB8C9B212A861ACF00A1EEB6 /* PatientVerifyDosesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientVerifyDosesView.swift; sourceTree = "<group>"; };
+		BB8C9B232A86578A00A1EEB6 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 		BBD9087D2A7CC1D0009361B5 /* Pill Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pill Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD908802A7CC1D0009361B5 /* Pill_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pill_TrackerApp.swift; sourceTree = "<group>"; };
 		BBD908822A7CC1D0009361B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BBD908842A7CC1D2009361B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBD908872A7CC1D2009361B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBD9088E2A7CC26E009361B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BBE579782A8354450055F0F2 /* PatientMedicationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientMedicationCard.swift; sourceTree = "<group>"; };
+		BBE5797C2A8365B40055F0F2 /* NurseVitalRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseVitalRowView.swift; sourceTree = "<group>"; };
+		BBE579802A83A89B0055F0F2 /* PatientMedicationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientMedicationRowView.swift; sourceTree = "<group>"; };
+		BBE579822A83A8DF0055F0F2 /* PatientMedicationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientMedicationDetailView.swift; sourceTree = "<group>"; };
+		BBE579842A83A9C50055F0F2 /* PatientVitalRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientVitalRowView.swift; sourceTree = "<group>"; };
+		BBE579862A83AE260055F0F2 /* NurseMedicationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseMedicationsView.swift; sourceTree = "<group>"; };
+		BBE5798A2A8501770055F0F2 /* PatientGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientGraphView.swift; sourceTree = "<group>"; };
+		BBE5798C2A8514F10055F0F2 /* PatientMedicalHistoryReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientMedicalHistoryReportView.swift; sourceTree = "<group>"; };
+		BBE585362A8D3B2800CBDD43 /* DoctorMedicationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorMedicationDetailView.swift; sourceTree = "<group>"; };
+		BBE585382A8EA2FA00CBDD43 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		BBFE3E5D2A8258FD006CEDFC /* NursePatientCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursePatientCard.swift; sourceTree = "<group>"; };
+		BBFE3E5F2A8259B4006CEDFC /* NurseMedicationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseMedicationRowView.swift; sourceTree = "<group>"; };
+		BBFE3E612A8259D6006CEDFC /* NursePatientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursePatientDetailView.swift; sourceTree = "<group>"; };
+		BBFE3E632A82691B006CEDFC /* NurseMedicationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseMedicationDetailView.swift; sourceTree = "<group>"; };
+		BBFE3E652A82713A006CEDFC /* NurseVitalsHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseVitalsHistoryView.swift; sourceTree = "<group>"; };
+		BBFE3E672A8272C3006CEDFC /* NurseAddVitalReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseAddVitalReadingView.swift; sourceTree = "<group>"; };
+		EA177EEEA25C65F41EDDB666 /* Pods-Pill Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pill Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Pill Tracker/Pods-Pill Tracker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +135,113 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D831DBBBC0E0FB2B17B1D11 /* Pods_Pill_Tracker.framework in Frameworks */,
+				BB03D3092A8B9E3E0066A51A /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29D471747F53CDA85070F90B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA177EEEA25C65F41EDDB666 /* Pods-Pill Tracker.debug.xcconfig */,
+				5A7E7F86F20D6731AD7C9621 /* Pods-Pill Tracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB02616C2A80B7F200CE52E0 /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				BB02616D2A80B92B00CE52E0 /* PatientView.swift */,
+				BB02616F2A80B99900CE52E0 /* PatientMedicationsView.swift */,
+				BBE579802A83A89B0055F0F2 /* PatientMedicationRowView.swift */,
+				BBE579822A83A8DF0055F0F2 /* PatientMedicationDetailView.swift */,
+				BB0261712A80C22000CE52E0 /* PatientVitalsView.swift */,
+				BBE579782A8354450055F0F2 /* PatientMedicationCard.swift */,
+				BBE579842A83A9C50055F0F2 /* PatientVitalRowView.swift */,
+				BB2D928F2A80C407005F1F0C /* PatientReportView.swift */,
+				BB2D92912A80C67C005F1F0C /* PatientPDFReportView.swift */,
+				BBE5798A2A8501770055F0F2 /* PatientGraphView.swift */,
+				BBE5798C2A8514F10055F0F2 /* PatientMedicalHistoryReportView.swift */,
+				BB8C9B212A861ACF00A1EEB6 /* PatientVerifyDosesView.swift */,
+				BB8C9B232A86578A00A1EEB6 /* PieChartView.swift */,
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
+		BB10FE8B2A7D0478004A9C68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB10FE8C2A7D0483004A9C68 /* Doctor.swift */,
+				BB10FE8E2A7D04A3004A9C68 /* Nurse.swift */,
+				BB10FE902A7D04C1004A9C68 /* Patient.swift */,
+				BB10FE922A7D0598004A9C68 /* UserRole.swift */,
+				BB10FE982A7D1178004A9C68 /* Medication.swift */,
+				BB10FE9A2A7D1187004A9C68 /* Vital.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB10FEA22A7D1F04004A9C68 /* Doctor */ = {
+			isa = PBXGroup;
+			children = (
+				BB10FE832A7D02FA004A9C68 /* DoctorView.swift */,
+				BB10FE852A7D0335004A9C68 /* DoctorNursesListView.swift */,
+				BB10FE942A7D0993004A9C68 /* DoctorNursePatientsListView.swift */,
+				BB10FE872A7D0351004A9C68 /* DoctorPatientsListView.swift */,
+				BB10FE892A7D03D9004A9C68 /* DoctorNurseCard.swift */,
+				BB10FE962A7D0AC1004A9C68 /* DoctorPatientCard.swift */,
+				BB10FE9C2A7D181F004A9C68 /* DoctorPatientDetailView.swift */,
+				BB10FE9E2A7D1851004A9C68 /* DoctorMedicationHistoryRowView.swift */,
+				BB10FEA02A7D18AC004A9C68 /* DoctorVitalRowView.swift */,
+				BB2D92932A80CF59005F1F0C /* DoctorPatientMedicationHistoryView.swift */,
+				BB2D92952A80D041005F1F0C /* DoctorManageMedicationsView.swift */,
+				BB2D92972A80D583005F1F0C /* DoctorMedicationCardView.swift */,
+				BB2D92992A80D5B4005F1F0C /* DoctorEditMedicationView.swift */,
+				BB2D929B2A80D5D5005F1F0C /* DoctorAddMedicationView.swift */,
+				BB03D30A2A8CD8010066A51A /* DoctorAssignSpecialistView.swift */,
+				BBE585362A8D3B2800CBDD43 /* DoctorMedicationDetailView.swift */,
+				BB7C1D222A94D7C9000D44EB /* DoctorGenerateReportView.swift */,
+			);
+			path = Doctor;
+			sourceTree = "<group>";
+		};
+		BB10FEA32A7D1F1A004A9C68 /* Nurse */ = {
+			isa = PBXGroup;
+			children = (
+				BB10FEA42A7D1F72004A9C68 /* NurseView.swift */,
+				BB02616A2A7FB75000CE52E0 /* NurseAssignedPatientsListView.swift */,
+				BBFE3E612A8259D6006CEDFC /* NursePatientDetailView.swift */,
+				BBFE3E5D2A8258FD006CEDFC /* NursePatientCard.swift */,
+				BBFE3E5F2A8259B4006CEDFC /* NurseMedicationRowView.swift */,
+				BBE579862A83AE260055F0F2 /* NurseMedicationsView.swift */,
+				BBFE3E632A82691B006CEDFC /* NurseMedicationDetailView.swift */,
+				BBFE3E652A82713A006CEDFC /* NurseVitalsHistoryView.swift */,
+				BBFE3E672A8272C3006CEDFC /* NurseAddVitalReadingView.swift */,
+				BBE5797C2A8365B40055F0F2 /* NurseVitalRowView.swift */,
+				BB3386BE2A9598B400CCD3CF /* NurseGenerateReportView.swift */,
+			);
+			path = Nurse;
+			sourceTree = "<group>";
+		};
+		BB2D929D2A80F31C005F1F0C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BB2D929E2A80F325005F1F0C /* FirebaseManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		BBD908742A7CC1D0009361B5 = {
 			isa = PBXGroup;
 			children = (
 				BBD9087F2A7CC1D0009361B5 /* Pill Tracker */,
 				BBD9087E2A7CC1D0009361B5 /* Products */,
+				29D471747F53CDA85070F90B /* Pods */,
+				F1FAF9F7F4B50E16F9EF9A8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +256,17 @@
 		BBD9087F2A7CC1D0009361B5 /* Pill Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				BB2D929D2A80F31C005F1F0C /* Helpers */,
+				BB02616C2A80B7F200CE52E0 /* Patient */,
+				BB10FEA32A7D1F1A004A9C68 /* Nurse */,
+				BB10FEA22A7D1F04004A9C68 /* Doctor */,
+				BB10FE8B2A7D0478004A9C68 /* Models */,
 				BBD908802A7CC1D0009361B5 /* Pill_TrackerApp.swift */,
 				BBD908822A7CC1D0009361B5 /* ContentView.swift */,
+				BB10FE7F2A7CCA8A004A9C68 /* SignupView.swift */,
+				BB10FE812A7CE076004A9C68 /* LoginView.swift */,
+				BBE585382A8EA2FA00CBDD43 /* ForgotPasswordView.swift */,
+				BBD9088E2A7CC26E009361B5 /* GoogleService-Info.plist */,
 				BBD908842A7CC1D2009361B5 /* Assets.xcassets */,
 				BBD908862A7CC1D2009361B5 /* Preview Content */,
 			);
@@ -67,6 +281,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F1FAF9F7F4B50E16F9EF9A8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57525F0EB721F5EF3A0FC2F7 /* Pods_Pill_Tracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +296,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBD9088B2A7CC1D2009361B5 /* Build configuration list for PBXNativeTarget "Pill Tracker" */;
 			buildPhases = (
+				A38A57C3837AEA83AF92C82D /* [CP] Check Pods Manifest.lock */,
 				BBD908792A7CC1D0009361B5 /* Sources */,
 				BBD9087A2A7CC1D0009361B5 /* Frameworks */,
 				BBD9087B2A7CC1D0009361B5 /* Resources */,
+				8E365544B66506C79FCE25BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Pill Tracker";
+			packageProductDependencies = (
+				BB03D3082A8B9E3E0066A51A /* SwiftUICharts */,
+			);
 			productName = "Pill Tracker";
 			productReference = BBD9087D2A7CC1D0009361B5 /* Pill Tracker.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +338,9 @@
 				Base,
 			);
 			mainGroup = BBD908742A7CC1D0009361B5;
+			packageReferences = (
+				BB03D3072A8B9E3E0066A51A /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = BBD9087E2A7CC1D0009361B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,18 +357,112 @@
 			files = (
 				BBD908882A7CC1D2009361B5 /* Preview Assets.xcassets in Resources */,
 				BBD908852A7CC1D2009361B5 /* Assets.xcassets in Resources */,
+				BBD9088F2A7CC26F009361B5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E365544B66506C79FCE25BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pill Tracker/Pods-Pill Tracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pill Tracker/Pods-Pill Tracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pill Tracker/Pods-Pill Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A38A57C3837AEA83AF92C82D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pill Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BBD908792A7CC1D0009361B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB03D30B2A8CD8010066A51A /* DoctorAssignSpecialistView.swift in Sources */,
+				BB10FE842A7D02FA004A9C68 /* DoctorView.swift in Sources */,
+				BB10FE972A7D0AC1004A9C68 /* DoctorPatientCard.swift in Sources */,
+				BBE579792A8354450055F0F2 /* PatientMedicationCard.swift in Sources */,
+				BBE585372A8D3B2900CBDD43 /* DoctorMedicationDetailView.swift in Sources */,
+				BB10FE8A2A7D03D9004A9C68 /* DoctorNurseCard.swift in Sources */,
+				BB10FEA12A7D18AC004A9C68 /* DoctorVitalRowView.swift in Sources */,
+				BB8C9B222A861ACF00A1EEB6 /* PatientVerifyDosesView.swift in Sources */,
 				BBD908832A7CC1D0009361B5 /* ContentView.swift in Sources */,
+				BB2D929F2A80F325005F1F0C /* FirebaseManager.swift in Sources */,
+				BB2D92922A80C67C005F1F0C /* PatientPDFReportView.swift in Sources */,
+				BBFE3E662A82713A006CEDFC /* NurseVitalsHistoryView.swift in Sources */,
+				BB2D92942A80CF59005F1F0C /* DoctorPatientMedicationHistoryView.swift in Sources */,
+				BBE5797D2A8365B40055F0F2 /* NurseVitalRowView.swift in Sources */,
+				BBE5798D2A8514F10055F0F2 /* PatientMedicalHistoryReportView.swift in Sources */,
+				BB2D929A2A80D5B4005F1F0C /* DoctorEditMedicationView.swift in Sources */,
+				BBFE3E5E2A8258FD006CEDFC /* NursePatientCard.swift in Sources */,
+				BB0261702A80B99900CE52E0 /* PatientMedicationsView.swift in Sources */,
+				BB10FE992A7D1178004A9C68 /* Medication.swift in Sources */,
+				BB10FE8F2A7D04A3004A9C68 /* Nurse.swift in Sources */,
+				BB2D92962A80D041005F1F0C /* DoctorManageMedicationsView.swift in Sources */,
+				BB10FE9B2A7D1187004A9C68 /* Vital.swift in Sources */,
+				BB0261722A80C22000CE52E0 /* PatientVitalsView.swift in Sources */,
+				BB2D929C2A80D5D5005F1F0C /* DoctorAddMedicationView.swift in Sources */,
+				BBE579812A83A89B0055F0F2 /* PatientMedicationRowView.swift in Sources */,
+				BB2D92982A80D583005F1F0C /* DoctorMedicationCardView.swift in Sources */,
+				BB8C9B242A86578A00A1EEB6 /* PieChartView.swift in Sources */,
+				BBE5798B2A8501770055F0F2 /* PatientGraphView.swift in Sources */,
+				BB10FE9F2A7D1851004A9C68 /* DoctorMedicationHistoryRowView.swift in Sources */,
+				BBFE3E622A8259D6006CEDFC /* NursePatientDetailView.swift in Sources */,
+				BB10FE862A7D0335004A9C68 /* DoctorNursesListView.swift in Sources */,
+				BB10FE802A7CCA8A004A9C68 /* SignupView.swift in Sources */,
+				BB10FE932A7D0598004A9C68 /* UserRole.swift in Sources */,
+				BB3386BF2A9598B400CCD3CF /* NurseGenerateReportView.swift in Sources */,
+				BB10FE8D2A7D0483004A9C68 /* Doctor.swift in Sources */,
+				BBE579832A83A8DF0055F0F2 /* PatientMedicationDetailView.swift in Sources */,
+				BB10FE822A7CE076004A9C68 /* LoginView.swift in Sources */,
+				BB02616E2A80B92B00CE52E0 /* PatientView.swift in Sources */,
+				BBE585392A8EA2FA00CBDD43 /* ForgotPasswordView.swift in Sources */,
 				BBD908812A7CC1D0009361B5 /* Pill_TrackerApp.swift in Sources */,
+				BBE579852A83A9C50055F0F2 /* PatientVitalRowView.swift in Sources */,
+				BB2D92902A80C407005F1F0C /* PatientReportView.swift in Sources */,
+				BB10FE9D2A7D181F004A9C68 /* DoctorPatientDetailView.swift in Sources */,
+				BB7C1D232A94D7C9000D44EB /* DoctorGenerateReportView.swift in Sources */,
+				BBFE3E682A8272C3006CEDFC /* NurseAddVitalReadingView.swift in Sources */,
+				BB10FE882A7D0351004A9C68 /* DoctorPatientsListView.swift in Sources */,
+				BB10FE952A7D0993004A9C68 /* DoctorNursePatientsListView.swift in Sources */,
+				BBFE3E602A8259B4006CEDFC /* NurseMedicationRowView.swift in Sources */,
+				BBFE3E642A82691B006CEDFC /* NurseMedicationDetailView.swift in Sources */,
+				BB10FEA52A7D1F72004A9C68 /* NurseView.swift in Sources */,
+				BBE579872A83AE260055F0F2 /* NurseMedicationsView.swift in Sources */,
+				BB02616B2A7FB75000CE52E0 /* NurseAssignedPatientsListView.swift in Sources */,
+				BB10FE912A7D04C1004A9C68 /* Patient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +585,7 @@
 		};
 		BBD9088C2A7CC1D2009361B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA177EEEA25C65F41EDDB666 /* Pods-Pill Tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -275,6 +600,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,6 +616,7 @@
 		};
 		BBD9088D2A7CC1D2009361B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A7E7F86F20D6731AD7C9621 /* Pods-Pill Tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +631,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +667,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BB03D3072A8B9E3E0066A51A /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB03D3082A8B9E3E0066A51A /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB03D3072A8B9E3E0066A51A /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BBD908752A7CC1D0009361B5 /* Project object */;
 }
